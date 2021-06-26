@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <TextView
+        android:id="@+id/txtprogramador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desarrollador"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/imagenperfil"
+        android:layout_width="80dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imageButton"
+        app:srcCompat="@drawable/foto" />
+
+    <ImageButton
+        android:id="@+id/imagenbtntubo"
+        android:layout_width="70dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/imageButton"
+        app:srcCompat="@drawable/tuboverde" />
+
+    <TextView
+        android:id="@+id/txtllamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/llamar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <ImageButton
+        android:id="@+id/imagenbtnsobre"
+        android:layout_width="70dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/imageButton"
+        app:srcCompat="@drawable/sobreamarillo" />
+
+    <TextView
+        android:id="@+id/txtcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviarCorreo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/imagenbtnmundo"
+        android:layout_width="70dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/imageButton"
+        app:srcCompat="@drawable/mundowww" />
+
+    <TextView
+        android:id="@+id/txtweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sitio"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnsalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/btnsalir"
+        android:backgroundTint="@color/botones"
+        android:textSize="12sp"
+        />
+
+
+
+</LinearLayout>

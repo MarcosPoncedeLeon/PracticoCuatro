@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">practicocuatro</string>
+    <string name="txtUsuario">Ingrese Usuario...</string>
+    <string name="txtClave">Ingrese Clave...</string>
+    <string name="btnInicio">Iniciar sesión</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="nombre_usuario">Nombre Usuario</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="RepetirContraseña">Repetir Contraseña</string>
+    <string name="llamar">Llamar...</string>
+    <string name="enviarCorreo">Enviar correo...</string>
+    <string name="sitio">Sitio web...</string>
+    <string name="btnsalir">SALIR</string>
+    <string name="desarrollador">Desarrolador</string>
+    <string name="imageButton">Image Button</string>
+
+
+
+</resources>
