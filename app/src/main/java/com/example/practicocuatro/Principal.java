@@ -15,7 +15,7 @@ public class Principal extends AppCompatActivity {
     private ImageButton imagenbtntubo, imagenbtnsobre, imagenbtnmundo;
     String numeroTel = "2954548995";
     String[] direcciones = {"poncedeleon0806@gmail.com"};
-    String url = "https://www.infobae.com/";
+    String url = "https://github.com/MarcosPoncedeLeon/PracticoCuatro";
 
 
     @Override
