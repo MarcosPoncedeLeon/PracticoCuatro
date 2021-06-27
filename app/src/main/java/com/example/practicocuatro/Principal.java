@@ -63,6 +63,7 @@ public class Principal extends AppCompatActivity {
     public void marcar(String phoneNumber) {
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:" + phoneNumber));
+
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
@@ -71,7 +72,7 @@ public class Principal extends AppCompatActivity {
     //metodo para envio de mail
     public void enviarmail(String[] addresses, String subject) {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.setData(Uri.parse("mailto:")); // solo las aplicaciones de correo electrónico deben manejar esto
         intent.putExtra(Intent.EXTRA_EMAIL, addresses);
         intent.putExtra(Intent.EXTRA_SUBJECT, subject);
         if (intent.resolveActivity(getPackageManager()) != null) {

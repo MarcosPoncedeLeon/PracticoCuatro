@@ -26,7 +26,7 @@
         android:inputType="textPersonName"
         android:padding="5dp"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/txtClave"
@@ -39,7 +39,7 @@
         android:inputType="textPassword"
         android:padding="5dp"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnSesion"

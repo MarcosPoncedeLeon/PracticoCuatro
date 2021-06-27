@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
 
@@ -33,7 +34,13 @@ public class Login extends AppCompatActivity {
         btnSesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pantallaPrincipal();
+                if(txtUsuario.getText().toString().equals("alumno") && txtClave.getText().toString().equals("123456")){
+                    pantallaPrincipal();
+                    txtUsuario.setText("");
+                    txtClave.setText("");
+                }else {
+                    Toast.makeText(Login.this, "Usuario o contraseña incorrectas", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
