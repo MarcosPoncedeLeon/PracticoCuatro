@@ -13,9 +13,10 @@
         android:id="@+id/logoRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
         android:layout_marginBottom="5dp"
-        android:src="@drawable/logo_m"/>
+        android:contentDescription="@string/logoEmpresa"
+        android:padding="10dp"
+        android:src="@drawable/logo_m" />
 
 
     <EditText

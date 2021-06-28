@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/logoEmpresa"
         app:srcCompat="@drawable/logo_m" />
 
     <EditText

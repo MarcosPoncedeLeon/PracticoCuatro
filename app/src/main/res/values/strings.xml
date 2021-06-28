@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">practicocuatro</string>
+    <string name="logoEmpresa">Logo empresa</string>
     <string name="txtUsuario">Ingrese Usuario...</string>
     <string name="txtClave">Ingrese Clave...</string>
     <string name="btnInicio">Iniciar sesión</string>
@@ -15,7 +16,5 @@
     <string name="btnsalir">SALIR</string>
     <string name="desarrollador">Desarrollador</string>
     <string name="imageButton">Image Button</string>
-
-
 
 </resources>
